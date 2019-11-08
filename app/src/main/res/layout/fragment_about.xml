@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".about">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="64dp"
+        android:text="ABOUT "
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="304dp"
+        android:layout_height="105dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="126dp"
+        android:text="This Application was developed by students,Studying  B.E.,CSE in GCT,Coimbatore.                                                                                   This Application helps the user to book cars."
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="304dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView33"
+        android:layout_below="@+id/textView33"
+        android:text="For Further Details..                                    Contact us on..       "
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="41dp"
+        android:layout_height="38dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/textView33"
+        android:layout_marginBottom="183dp"
+        android:src="@drawable/whatsapp" />
+
+    <TextView
+        android:id="@+id/textView39"
+        android:layout_width="238dp"
+        android:layout_height="29dp"
+        android:layout_alignBottom="@+id/imageView2"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="43dp"
+        android:text="-  8220755820"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="41dp"
+        android:layout_height="38dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/textView33"
+        android:layout_marginBottom="135dp"
+        android:src="@drawable/fb" />
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="236dp"
+        android:layout_height="29dp"
+        android:layout_alignBottom="@+id/imageView6"
+        android:layout_alignStart="@+id/textView39"
+        android:text="-fb/mariappan"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="41dp"
+        android:layout_height="38dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/textView33"
+        android:layout_marginBottom="89dp"
+        android:src="@drawable/instagram_icon" />
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="236dp"
+        android:layout_height="29dp"
+        android:layout_alignBottom="@+id/imageView7"
+        android:layout_alignStart="@+id/textView39"
+        android:text="-insta/mari_20"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="41dp"
+        android:layout_height="38dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/textView33"
+        android:layout_marginBottom="42dp"
+        android:src="@drawable/twitter" />
+
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_width="236dp"
+        android:layout_height="29dp"
+        android:layout_alignBottom="@+id/imageView8"
+        android:layout_alignStart="@+id/textView39"
+        android:text="-twitter/@Mariappan"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:textStyle="bold" />
+</RelativeLayout>
